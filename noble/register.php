@@ -1,6 +1,6 @@
 <?php
 header("Content-Type:application/json");
-$shortcode='174379';
+$shortcode='600730';
 $consumerkey    ="HpK9j9ANNSd6JFImobmDAWpgKkqSwx8D";
 $consumersecret ="rWbMr3it4GlSpSaZ";
 $validationurl="https://rennyexporters.co.ke/mptest/noble/validation.php?token=7y7C*AoUo7OZb@Vg^UNh";
