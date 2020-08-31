@@ -3,8 +3,8 @@ header("Content-Type:application/json");
 $shortcode='174379';
 $consumerkey    ="HpK9j9ANNSd6JFImobmDAWpgKkqSwx8D";
 $consumersecret ="rWbMr3it4GlSpSaZ";
-$validationurl="http://localhost/mpesa-php/noble/validation.php?token=7y7C*AoUo7OZb@Vg^UNh";
-$confirmationurl="http://localhost/mpesa-php/noble/confirmation.php?token=7y7C*AoUo7OZb@Vg^UNh";
+$validationurl="https://rennyexporters.co.ke/mptest/noble/validation.php?token=7y7C*AoUo7OZb@Vg^UNh";
+$confirmationurl="https://rennyexporters.co.ke/mptest/noble/confirmation.php?token=7y7C*AoUo7OZb@Vg^UNh";
 /* testing environment, comment the below two lines if on production */
 $authenticationurl='https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 $registerurl = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
