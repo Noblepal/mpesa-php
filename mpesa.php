@@ -1,4 +1,5 @@
 <?php
+@require_once('Operations.php');
 /**
  * Created by PhpStorm.
  * User: kogi
@@ -76,7 +77,9 @@
 
     echo $curl_stk_response;
 	if($curl_stk_response){
-		echo $curl_stk_response;
+        echo $curl_stk_response;
+        $db = new Operations();
+        $db->insert($curl_stk_response);
 	}else{
 		echo "null";
 	}
