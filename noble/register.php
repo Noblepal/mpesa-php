@@ -1,8 +1,8 @@
 <?php
 header("Content-Type:application/json");
-$shortcode='174379';
-$consumerkey    ="HpK9j9ANNSd6JFImobmDAWpgKkqSwx8D";
-$consumersecret ="rWbMr3it4GlSpSaZ";
+$shortcode='600754';
+$consumerkey    ="reJOzbCKbRGfpQV1AbL6sboFOgum1a8t";
+$consumersecret ="LLzAHai1Yg4TJMDR";
 $validationurl="https://rennyexporters.co.ke/mptest/noble/validation.php?token=7y7C*AoUo7OZb@Vg^UNh";
 $confirmationurl="https://rennyexporters.co.ke/mptest/noble/confirmation.php?token=7y7C*AoUo7OZb@Vg^UNh";
 /* testing environment, comment the below two lines if on production */
